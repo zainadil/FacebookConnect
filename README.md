@@ -54,8 +54,12 @@ If you plan on rolling this out on Android, please note that you will need to [g
 
 ## Adobe PhoneGap Build
 
-If using this plugin on Adobe PhoneGap Build you can ignore the instructions below and go straight to the 
-PhoneGap Build documentation available [here] (https://build.phonegap.com/docs/plugins#facebookconnect).
+Add the following to your config.xml
+
+    <gap:plugin name="com.phonegap.plugins.facebookconnect">
+        <preference name="APP_ID" value="..." />
+        <preference name="APP_NAME" value="..." />
+    </gap:plugin>
 
 ## Manual Android Installation
 
